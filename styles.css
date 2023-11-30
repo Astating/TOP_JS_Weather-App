@@ -1,0 +1,31 @@
+body {
+  background-size: cover;
+  background-color: grey;
+  background-blend-mode: multiply;
+  color: white;
+  text-shadow: black 1px 0 10px;
+  font-size: 2rem;
+}
+
+#description {
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#photo-alt {
+  font-style: italic;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <script src="app.js" defer></script>
+
+  <form name="fetchWeather">
+    <label for="location">Location: <input type="text" name="location" value="Seattle" /></label>
+    <label for="tempSign">
+      <select name="tempSign">
+        <option value="celsius">°C</option>
+        <option value="fahrenheit">°F</option>
+      </select>
+    </label>
+  </form>
+  <div id="output">
+    <output name="" for="">
+      <div id="where">
+        <span id="name"></span>
+        <span id="country"></span>
+      </div>
+      <div id="weather">
+        <img id="icon" />
+        <span id="temperature"></span>
+      </div>
+      <span id="description"></span>
+    </output>
+  </div>
+  <footer>
+    <span id="photo-alt"></span>
+    <span id="photographer"></span>
+  </footer>
+</body>
+
+</html>
